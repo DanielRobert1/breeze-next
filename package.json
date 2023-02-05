@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "deploy": "npm install && npm run build && npm run start:dev"
+    "deploy": "npm install && npm run build && npm run start"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
