@@ -13,6 +13,12 @@ module.exports = {
         'plugin:prettier/recommended',
     ],
     parserOptions: {
+        parser: '@babel/eslint-parser',
+        babelOptions: {
+            parserOpts: {
+                plugins: ['jsx'],
+            },
+        },
         ecmaFeatures: {
             jsx: true,
         },
@@ -37,7 +43,7 @@ module.exports = {
         'react/no-unescaped-entities': 0,
         'react/require-default-props': 0,
         'react/react-in-jsx-scope': 0,
-        'linebreak-style': ['error', 'unix'],
+        'linebreak-style': ['error', 'windows'],
         semi: ['error', 'never'],
         'prettier/prettier': [
             'error',

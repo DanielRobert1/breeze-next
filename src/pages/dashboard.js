@@ -9,9 +9,8 @@ const Dashboard = () => {
                     Dashboard
                 </h2>
             }>
-
             <Head>
-                <title>Laravel - Dashboard</title>
+                <title>Fuel Credit - Dashboard</title>
             </Head>
 
             <div className="py-12">
